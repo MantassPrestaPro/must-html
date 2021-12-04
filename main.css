@@ -1,0 +1,319 @@
+#cms table {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0;
+}
+
+#cms #content table  {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 0;
+    margin-bottom: 70px;
+}
+    #content table tr.text-block {
+        height: 350px;
+        position: relative;
+        z-index: 1;
+    }
+    #content table td tr.text-block  p:nth-child(2)  {
+        line-height: 1.5em;
+        margin-top:0px;
+        margin-bottom:1rem;
+        font-size:24px;
+        font-family:'Open Sans', sans-serif;
+        color: #473b32;
+    }
+
+
+    #content table tr {
+        height: 450px;
+        position: relative;
+        z-index: 1;
+    }
+        #content table tr td {
+            height: 300px;
+            position: relative;
+            z-index: 2;
+        }
+
+            .container-left {
+                float: left;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .container-right {
+                float:right;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+            }
+/*##### RIGHT */
+            #content .full-background-right::before {
+                position: absolute;
+                content: '';
+                width: 1000%;
+                top:0;
+                right: 0;
+                bottom: 0;
+                background-color: #ceb9a5;
+            }
+
+            #content table tr .right-circle::before  {
+                position: absolute;
+                content: '';
+                background-color:#ceb9a5;
+                top: 0;
+                right: -90px;
+                z-index: 1;
+                height: 100%;
+                width: 450px;
+                border-radius: 0 50% 50% 0;
+            }
+
+            #content .half-background-right {
+                background-color: #ceb9a5;
+                border-radius: 0 50% 50% 0;
+            }
+/*##### LEFT*/
+            #content .full-background-left::before {
+                position: absolute;
+                content: '';
+                width: 1000%;
+                top:0;
+                left: 0;
+                bottom: 0;
+                background-color: #d2ab97;
+            }
+            #content table tr .left-circle::before  {
+                position: absolute;
+                content: '';
+                background-color:#d2ab97;
+                top: 0;
+                left: -90px;
+                z-index: 1;
+                height: 100%;
+                width: 450px;
+                border-radius: 50% 0 0 50%;
+            }
+            #content .half-background-left {
+                background-color: #d2ab97;
+                border-radius: 50% 0 0 50%;
+            }
+/*#####*/
+#content table td > div {
+    position: relative;
+    z-index: 2;
+}
+
+#content table td > div > a {
+    width: 200px;
+    padding: 15px 60px;
+    font-size: 18px;
+    background-color:#715846;
+    color: white;
+    border-radius: 30px;
+}
+
+#content table td p  {
+    line-height: 1.5em;margin-top:0px;margin-bottom:1rem;font-size:30px;font-family:'Open Sans', sans-serif;
+    color: #473b32;
+}
+
+#content table td p:nth-child(2)  {
+    line-height: 1.5em;margin-top:0px;margin-bottom:1rem;font-size:24px;font-family:'Open Sans', sans-serif;
+    color: #473b32;
+}
+
+
+
+
+
+.progress-bar {
+    display: inline-block;
+    width: 380px;
+    text-align: right;
+}
+.progress-bar:last-child {
+    margin-bottom: 0;
+}
+
+.progress-bar > .top {
+    display: inline-block;
+    width: 100%;
+}
+
+.progress-bar > .top > .label {
+    display: inline-block;
+    float: left;
+}
+.progress-bar > .top > .value {
+    display: inline-block;
+    float: right;
+}
+
+.progress-bar > .bar {
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    border-radius:  10px;
+}
+
+.progress-bar > .bar > .fill {
+    border-radius:  10px;
+    background-color: #5f4b3c;
+    display: inline-block;
+    width: 50%;
+    height: 20px;
+    float:left;
+}
+.progress-bar > .bar > .fill-right {
+    border-radius:  10px;
+    background-color: #5f4b3c;
+    display: inline-block;
+    width: 50%;
+    height: 20px;
+    float:right;
+}
+
+
+#content .full-background-right-orange::before {
+    position: absolute;
+    content: '';
+    width: 1000%;
+    top:0;
+    right: 0;
+    bottom: 0;
+    background-color: #e9bd88;
+}
+
+#content table tr .right-circle-range::before  {
+    position: absolute;
+    content: '';
+    background-color:#e9bd88;
+    top: 0;
+    right: -90px;
+    z-index: 1;
+    height: 100%;
+    width: 450px;
+    border-radius: 0 50% 50% 0;
+}
+
+#content .half-background-right-orange {
+    background-color: #e9bd88;
+    border-radius: 0 50% 50% 0;
+}
+
+
+
+/*#content .full-background-right-sand::before {*/
+/*    position: absolute;*/
+/*    content: '';*/
+/*    width: 1000%;*/
+/*    top:0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    background-color: #ceb9a5;*/
+/*}*/
+
+
+/*///////////// INDEX 2  - first capsule both ends ///// */
+#content table tr .right-circle-sand::before  {
+    position: absolute;
+    content: '';
+    background-color:#ceb9a5;
+    top: 0;
+    right: -90px;
+    z-index: 1;
+    height: 100%;
+    width: 450px;
+    border-radius: 0 50% 50% 0;
+}
+
+#content .half-background-right-sand {
+    background-color: #ceb9a5;
+    border-radius: 0 50% 50% 0;
+}
+
+#content table tr .left-circle-sand::before  {
+    position: absolute;
+    content: '';
+    background-color:#ceb9a5;
+    top: 0;
+    left: -320px;
+    z-index: 1;
+    height: 100%;
+    width: 450px;
+    border-radius: 50% 0 0 50%;
+}
+/*//////*/
+
+#content .half-background-left-sand {
+    background-color: #ceb9a5;
+    /*border-radius: 50% 0 0 50%;*/
+}
+
+.image-block {
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    max-height: 400px;
+}
+
+/*#977d67;*/
+/*/// second half capsule ////*/
+
+#content .full-background-left-darker-brown::before {
+    position: absolute;
+    content: '';
+    width: 1000%;
+    top:0;
+    bottom: 0;
+    left:0;
+    background-color: #977d67;
+}
+#content table tr .left-circle-darker-brown::before  {
+    position: absolute;
+    content: '';
+    background-color:#977d67;
+    top: 0;
+    left: -110px;
+    z-index: 1;
+    height: 100%;
+    width: 600px;
+    border-radius: 50% 0 0 50%;
+}
+#content .half-background-left-darker-brown {
+    background-color: #977d67;
+    border-radius: 50% 0 0 50%;
+}
+
+/*///////////// INDEX 3 ///// */
+
+.image-link-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+    .image-link-container .image-link-item {
+        position: relative;
+        border:2px green solid;
+        width: 100%;
+    }
+        .image-link-item .image-link {
+
+        }
+            .image-link-item .image-link img {
+
+            }
+        .image-link-item .image-link-item {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+            .image-link-item .image-link-item span {
+                color: white;
+            }
